@@ -5,11 +5,55 @@ This is a template for a web archive project that automates opening urls in brow
 
 This project uses the Selenium library in Python to open and control windows.
 
-If you do not have selenium downloaded, you can run `pip install selenium` in your terminal.
+### Installing dependencies
+#### On Mac:
 
-You can find Selenium documentation here: https://www.selenium.dev and https://pypi.org/project/selenium/
+Please open your terminal and enter `python --version`, which will check whether you have Python installed and what version you have installed.
 
-To run `webarchive.py`, open your Terminal at the folder location of your file and type `python3 webarchive.py`
+If it says that python is not a command, try `python3 --version`.
+
+If `python3 --version` returned without an error, you should use `python3` to run commands instead of `python`.
+
+You may close the terminal now.
+
+In your file browser, navigate to the `webarchive-template` folder. Right click the folder and click "New Terminal at folder". In this terminal we are going to install selenium and numpy, two python libraries that we need in order to run this program.
+
+if python is valid version, type and enter: \
+`pip install selenium` \
+(press enter. Once that install is complete, type) \
+`pip install numpy`
+
+if python is valid version, type and enter: \
+`pip3 install selenium` \
+(press enter. Once that install is complete, type) \
+`pip3 install numpy`
+
+You are all set. To run the webarchive project, type `python webarchive.py` or `python3 webarchive.py` based on your version of python.
+
+#### On Windows:
+Please go to the Windows Store and download Python version 3.11 or higher.
+
+In your file browser, go to your folder. Right click on the folder and click "copy path".
+
+Open the Command Prompt app. Type `cd paste_your_path_here`, where paste_your_path_here is the copied path. Press enter. (This takes your command prompt to your folder so you can access those files directly.)
+
+To install selenium, run and enter the command:\
+`pip install selenium`
+
+To install numpy, run and enter the command:\
+`pip install numpy`
+
+You should be all set. To run the webarchive project, type `python webarchive.py`.
+
+### Running the code
+#### On Mac:
+In your filesystem, go to location that the webarchive-template folder is in. Right click the folder, click "New Terminal at folder". Then, run the python script by typing and entering: `python3 webarchive.py` (or `python webarchive.py`)
+
+#### On Windows:
+In your filesystem, open the webarchive-template folder. Right click on it, select "Copy path". Open the Command Prompt app. Type and enter: `cd paste_your_path_here`. Then, run the python script by typing and entering: `python webarchive.py`
+
+
+For reference, you can find Selenium documentation here: https://www.selenium.dev and https://pypi.org/project/selenium/
 
 ## Notes on using `webarchive.py`
 `webarchive.py` is broken up into 5 parts.
