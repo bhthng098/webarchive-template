@@ -1,10 +1,13 @@
 # Web Archive Template
 
 ## Welcome!
-This is a template for a web archive project that automates opening urls in browser windows.
+This is a template for a web archive project that automates opening urls in browser windows. To download the file, click on the green "code" button and select Download zip.
 
 This project uses the Selenium library in Python to open and control windows.
-You can find Selenium download instructions and their documentation here: https://www.selenium.dev and https://pypi.org/project/selenium/
+
+If you do not have selenium downloaded, you can run `pip install selenium` in your terminal.
+
+You can find Selenium documentation here: https://www.selenium.dev and https://pypi.org/project/selenium/
 
 To run `webarchive.py`, open your Terminal at the folder location of your file and type `python3 webarchive.py`
 
