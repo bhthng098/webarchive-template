@@ -137,4 +137,4 @@ if __name__ == "__main__":
     # randomize order of urls
     np.random.shuffle(urls)
 
-    openWindowsRandomSizeAndPosition(urls[60:], 200, 1000, 200, 800, .5)
+    openWindowsRandomSizeAndPosition(urls, 200, 1000, 200, 800, .5)
