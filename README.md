@@ -21,14 +21,16 @@ In your file browser, navigate to the `webarchive-template` folder. Right click 
 if python is valid version, type and enter: \
 `pip install selenium` \
 (press enter. Once that install is complete, type) \
-`pip install numpy`
+`pip install numpy`\
+(enter)
 
-if python is valid version, type and enter: \
+if python3 is valid version, type and enter: \
 `pip3 install selenium` \
 (press enter. Once that install is complete, type) \
-`pip3 install numpy`
+`pip3 install numpy`\
+(enter)
 
-You are all set. To run the webarchive project, type `python webarchive.py` or `python3 webarchive.py` based on your version of python.
+You are all set. To run the webarchive project, type and enter `python webarchive.py` or `python3 webarchive.py` based on your version of python.
 
 #### On Windows:
 Please go to the Windows Store and download Python version 3.11 or higher.
@@ -43,7 +45,7 @@ To install selenium, run and enter the command:\
 To install numpy, run and enter the command:\
 `pip install numpy`
 
-You should be all set. To run the webarchive project, type `python webarchive.py`.
+You should be all set. To run the webarchive project, type and enter `python webarchive.py`.
 
 ### Running the code
 #### On Mac:
