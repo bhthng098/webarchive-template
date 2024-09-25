@@ -49,7 +49,7 @@ You should be all set. To run the webarchive project, type and enter `python web
 
 ### Running the code
 #### On Mac:
-In your filesystem, go to location that the webarchive-template folder is in. Right click the folder, click "New Terminal at folder". Then, run the python script by typing and entering: `python3 webarchive.py` (or `python webarchive.py`)
+In your filesystem, go to location that the webarchive-template folder is in. Right click the webarchive-template folder, click "New Terminal at folder". Then, run the python script by typing and entering: `python3 webarchive.py` (or `python webarchive.py`)
 
 #### On Windows:
 In your filesystem, open the webarchive-template folder. Right click on it, select "Copy path". Open the Command Prompt app. Type and enter: `cd paste_your_path_here`. Then, run the python script by typing and entering: `python webarchive.py`
