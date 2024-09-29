@@ -138,9 +138,9 @@ Open 8 windows where the first 2 windows have an interval of 2 seconds, the 3rd 
   urls = urls.append("https://www.selenium.dev")
 
   openWindowsRandomSizeAndPosition(urls[0:2], 300, 1000, 200, 800, 2)
-  openWindowsRandomSizeAndPosition(urls[2:4], 300, 1000, 200, 800, 2)
-  openWindowsRandomSizeAndPosition(urls[4:6], 300, 1000, 200, 800, 2)
-  openWindowsRandomSizeAndPosition(urls[6:], 300, 1000, 200, 800, 2)
+  openWindowsRandomSizeAndPosition(urls[2:4], 300, 1000, 200, 800, 1.5)
+  openWindowsRandomSizeAndPosition(urls[4:6], 300, 1000, 200, 800, 1)
+  openWindowsRandomSizeAndPosition(urls[6:], 300, 1000, 200, 800, .5)
 
 ```
 
